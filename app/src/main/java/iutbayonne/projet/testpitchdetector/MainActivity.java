@@ -103,7 +103,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
     public void processPitch(float pitchInHz)
     {
         pitchText.setText("" + pitchInHz + " Hz");
@@ -160,7 +159,6 @@ public class MainActivity extends AppCompatActivity {
         {
             audioThread.interrupt();
             dispatcher.stop();
-            pitchText.setText("");
         }
 
     }
